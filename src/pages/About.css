@@ -1,0 +1,29 @@
+.about{
+    margin-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.about img{
+    width: 450px;
+    height: 70vh;
+}
+
+.about .desc{
+    margin-top: 10rem;
+    width: 50% !important;
+    overflow: hidden;
+}
+
+.about .desc p{
+    color: black !important;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.desc h2{
+    color: orange !important;
+    font-size: 2.5rem;
+}

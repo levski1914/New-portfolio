@@ -1,0 +1,59 @@
+.SkillsContainer{
+    width: 600px;
+}
+.SkillsContainer menu{
+    background-color: #ffffff;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 0px 5px 5px #fff;
+}
+
+.SkillsContainer menu button[aria-selected="true"]{
+        background-color: red;
+}
+
+.SkillsContainer menu button{
+    background:#000C24;
+    padding: 1em;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.Skills article ul  p{
+    color: #000 !important;
+    font-weight: 700;
+}
+
+.Skills{
+    margin-top: 1em;
+   border: 3px solid #000C24;
+   box-shadow: 0 0 5px 5px #fff;
+    height: 220px;
+    background-color: #fff;
+}
+
+.Skills article ul{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Skills article ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Skills article ul li img{
+    width: 40px;
+    height: 40px;
+}
+.Skills article ul li a{
+    color: #000 !important;
+    font-weight: 700;
+}
