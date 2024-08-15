@@ -59,6 +59,10 @@ const Skills = () => {
             <img src="https://www.brianwachira.dev/icons/nodejs-1.svg" />
             <p>NodeJS</p>
           </li>
+          <li>
+            <img src="https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png" />
+            <p>Firebase</p>
+          </li>
         </ul>
       ),
     },
@@ -75,9 +79,17 @@ const Skills = () => {
       ),
     },
     {
+      //
       id: "tab-D",
       title: "UI Design",
-      content: <p>Content for UI Design</p>,
+      content: (
+        <ul>
+          <li>
+            <img src="https://www.brianwachira.dev/icons/figma-1.svg" />
+            <p>Figma</p>
+          </li>
+        </ul>
+      ),
     },
     {
       id: "tab-E",
@@ -121,7 +133,14 @@ const Skills = () => {
       <div className="container">
         <div className="skill">
           <h2>Skills.</h2>
-
+          <p
+            style={{ width: "400px", fontSize: "1.2em", textAlign: "justify" }}
+          >
+            With a diverse range of skills, including expertise in ReactJS,
+            Firebase, Cypress, REST API, and Figma, I am a versatile software
+            engineer with the ability to tackle a wide variety of projects and
+            challenges.
+          </p>
           <div className="SkillsContainer">
             <menu role="tabList">
               {tabs.map((tab) => (

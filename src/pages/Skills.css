@@ -1,5 +1,6 @@
 .SkillsContainer{
-    width: 600px;
+    width: 650px;
+    margin-top: 2em;
 }
 .SkillsContainer menu{
     background-color: #ffffff;
@@ -11,13 +12,14 @@
 }
 
 .SkillsContainer menu button[aria-selected="true"]{
-        background-color: red;
+        background-color: #377EF0;
 }
 
 .SkillsContainer menu button{
     background:#000C24;
     padding: 1em;
     border: 1px solid #fff;
+    font-weight: 760;
     border-radius: 10px;
 }
 
@@ -38,7 +40,7 @@
     display: flex;
     padding: 1em;
     align-items: center;
-    justify-content: space-between;
+gap: 30px;
 }
 
 .Skills article ul li{
