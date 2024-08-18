@@ -130,7 +130,7 @@ const Skills = () => {
   ];
   return (
     <>
-      <div className="container">
+      <div className="container skillSection">
         <div className="skill">
           <h2>Skills.</h2>
           <p

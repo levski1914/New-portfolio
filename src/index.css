@@ -7,7 +7,7 @@ body {
   /* display: flex; */
   /* min-width: 320px; */
   min-height: 100vh;
-  background-image: url("	https://www.brianwachira.dev/images/landing-bg.svg");
+  background-color: #1c2952;
   background-size: cover;
   background-position: center;
   position: relative;

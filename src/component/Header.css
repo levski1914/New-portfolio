@@ -1,0 +1,47 @@
+
+.header{
+    height: 80vh;
+    background: linear-gradient(to right, #2144d0,#1c2952,#291C3A);
+
+}
+.info{
+    /* border: 1px solid; */
+    display: flex;
+    background-color: #1e1d3b;
+
+}
+
+.litteInfo{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.litteInfo ul{
+    padding: .2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    color: #DCCFED;
+}
+
+.projectsExp li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projectsExp li h2{
+    font-size: 4em;
+    color: #DCCFED;
+}
+
+.projectsExp li span{
+    font-size: 1.5em;
+}
+
+.someSkils li img{
+    width: 50px;
+}

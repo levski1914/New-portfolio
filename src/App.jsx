@@ -5,13 +5,14 @@ import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Header from "./component/Header";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>

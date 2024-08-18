@@ -8,11 +8,21 @@ li{
 a{
     text-decoration: none;
 }
+
+.navbar{
+    padding: 0 !important;
+    background: linear-gradient(to right, #2144d0,#1c2952,#291C3A);
+}
 .nav{
-    margin: 1rem 0;
+    margin: 0;
+    width: 100%;
+
 }
 .nav ul{
     display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 1em;
 }
 .nav ul li{
     font-size: 1.5rem;
