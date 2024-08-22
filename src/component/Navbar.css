@@ -11,11 +11,12 @@ a{
 
 .navbar{
     padding: 0 !important;
-    background: linear-gradient(to right, #2144d0,#1c2952,#291C3A);
+    
 }
 .nav{
     margin: 0;
     width: 100%;
+    background: linear-gradient(to right, #2144d0,#1c2952,#291C3A);
 
 }
 .nav ul{

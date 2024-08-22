@@ -1,9 +1,39 @@
 
 .header{
-    height: 80vh;
+    height: 90vh;
     background: linear-gradient(to right, #2144d0,#1c2952,#291C3A);
 
 }
+
+
+
+.title-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    text-shadow: #2144d0 1px 0 10px;
+}
+
+.title span{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.title h1{
+    font-weight: 700;
+    font-size:5em;
+    color: #7391b6 !important;
+}
+
+.logo img{
+    width: 500px;
+    height:500px;
+}
+
+
 .info{
     /* border: 1px solid; */
     display: flex;

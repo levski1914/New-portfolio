@@ -1,0 +1,19 @@
+.projectPage .cards .card{
+    background-color: #7391B6;
+}
+
+
+.cards .card .card-title h4{
+    color: #1E1D3B !important;
+}
+
+.cards .card .card-info a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    background-color: #1c2852;
+    width: 100%;
+    color: #fff;
+}

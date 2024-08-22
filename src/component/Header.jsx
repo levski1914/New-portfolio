@@ -7,15 +7,22 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div className="container-fluid header">
-        <h1>
-          <span> Hello,</span>
-          <br />
-          I'm a web
-          <br />
-          Developer <br />
-        </h1>
-        <h2> I build things for web</h2>
+      <div id="home" className="container-fluid header">
+        {/* <img src="./banner.png" alt="" /> */}
+        <div className="title-logo">
+          <div className="title">
+            <span> Hello,</span>
+            <h1>
+              I'm a web
+              <br />
+              Developer <br />
+            </h1>
+            <h2> I build things for web</h2>
+          </div>
+          <div className="logo">
+            <img src="/src/component/banner.png" alt="" />
+          </div>
+        </div>
       </div>
       <div className="container-fluid info">
         <article className="litteInfo">
