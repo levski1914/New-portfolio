@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar z-3">
         <nav ref={div} className="nav">
           <ul>
             <li>
@@ -53,7 +53,19 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#">Projects</Link>
+              <Link
+                to="#projects"
+                scroll={(el) => {
+                  const yOffset = -100; // колко пиксела да изместиш надолу
+                  const y =
+                    el.getBoundingClientRect().top +
+                    window.pageYOffset +
+                    yOffset;
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                Projects
+              </Link>
             </li>
             <li>
               <Link href="#">Contact me </Link>

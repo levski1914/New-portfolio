@@ -26,3 +26,41 @@ body::before{
     height: 100%;
 }
 
+
+
+.flex{
+  display: flex;
+}
+
+.j-between{
+  justify-content: space-between;
+}
+.j-center{
+  justify-content: center;
+}
+.j-around{
+  justify-content: space-around;
+}
+
+
+.a-center{
+  align-items: center;
+}
+
+.g-2{
+  gap: 20px;
+}
+
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  top: 0;
+  left: 0;
+  z-index: -1; /* За да не покрива съдържанието */
+} 
+
+canvas{
+  height: 90vh !important;
+}

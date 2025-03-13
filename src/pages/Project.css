@@ -1,5 +1,10 @@
+.projectPage{
+    height: 70vh;
+    z-index: -1;
+}
 .projectPage .cards .card{
     background-color: #7391B6;
+    z-index: -1;
 }
 
 
@@ -16,4 +21,5 @@
     background-color: #1c2852;
     width: 100%;
     color: #fff;
+    
 }

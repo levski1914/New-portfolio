@@ -63,6 +63,14 @@ const Skills = () => {
             <img src="https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png" />
             <p>Firebase</p>
           </li>
+          <li>
+            <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png" />
+            <p>MongoDB</p>
+          </li>
+          <li>
+            <img src="https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo-thumbnail.png" />
+            <p>Express.js</p>
+          </li>
         </ul>
       ),
     },

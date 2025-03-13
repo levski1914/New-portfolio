@@ -2,13 +2,16 @@ import React from "react";
 // import { Navbar } from "react-bootstrap";
 import Navbar from "./Navbar";
 import "./Header.css";
+import ParticlesContainer from "./ParticlesContainer";
 
 const Header = () => {
   return (
     <>
       <Navbar />
-      <div id="home" className="container-fluid header">
+      <div id="home" className="container-fluid header position-relative">
         {/* <img src="./banner.png" alt="" /> */}
+
+        <ParticlesContainer />
         <div className="title-logo">
           <div className="title">
             <span> Hello,</span>
