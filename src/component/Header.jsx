@@ -23,7 +23,7 @@ const Header = () => {
             <h2> I build things for web</h2>
           </div>
           <div className="logo">
-            <img src="/src/component/banner.png" alt="" />
+            <img src="/banner.png" alt="" />
           </div>
         </div>
       </div>
