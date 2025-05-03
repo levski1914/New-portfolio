@@ -8,14 +8,15 @@ const Projects = () => {
       <div id="projects" className="container projectPage">
         <h2>My Projects</h2>
         <p>Some things I've built so far</p>
-        <div className="cards flex g-2 position-relative z-1 ">
-          <div className="card" style={{ width: "400px" }}>
+        <div className="cards row g-2 position-relative z-1 ">
+          <div className="card col-4" style={{ width: "400px" }}>
             <div className="card-header">
               <img src="ams.png" alt="" style={{ width: "100%" }} />
             </div>
             <div className="card-body">
               <div className="card-title">
                 <h4>Archive management system</h4>
+                <h5>React + NodeJS + MongoDB</h5>
               </div>
               <div className="card-info">
                 <a
@@ -36,17 +37,14 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="card" style={{ width: "400px" }}>
+          <div className="card col-4" style={{ width: "400px" }}>
             <div className="card-header">
-              <img
-                src="../../public/mern-netflix.webp"
-                alt=""
-                style={{ width: "100%" }}
-              />
+              <img src="forecast.png" alt="" style={{ width: "100%" }} />
             </div>
             <div className="card-body">
               <div className="card-title">
                 <h4>Forecast weather</h4>
+                <h5>React + NodeJS + MongoDB</h5>
               </div>
               <div className="card-info">
                 <a
@@ -60,6 +58,31 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://github.com/levski1914/Forecast"
+                >
+                  <FontAwesomeIcon icon="fa-brands fa-github" />
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="card col-4" style={{ width: "400px" }}>
+            <div className="card-header text-center">
+              <img
+                src="https://play-lh.googleusercontent.com/TDND41RITLkmamvd0a9Qsq0fn0JVR_b-SGRIWVApc-_ggIYA9-zAPKSUvCJ1ZqusF1kT=w240-h480-rw"
+                alt=""
+                style={{ width: "50%" }}
+              />
+            </div>
+            <div className="card-body">
+              <div className="card-title">
+                <h4>To-do,Shopping,Expenses app</h4>
+                <h5>React + React Native + Expo Go</h5>
+              </div>
+              <div className="card-info">
+                <br />
+                <a
+                  target="_blank"
+                  href="https://github.com/levski1914/AI-Todo-Shopping-Expenses"
                 >
                   <FontAwesomeIcon icon="fa-brands fa-github" />
                   View Code

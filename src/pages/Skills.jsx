@@ -42,6 +42,13 @@ const Skills = () => {
           </li>
           <li>
             <img
+              src="https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png"
+              alt="Next.js"
+            />
+            <a href="#">Next.JS</a>
+          </li>
+          <li>
+            <img
               src="https://www.brianwachira.dev/icons/bootstrap.png"
               alt="Bootstrap"
             />
@@ -68,8 +75,20 @@ const Skills = () => {
             <p>MongoDB</p>
           </li>
           <li>
+            <img src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png" />
+            <p>Nest.JS</p>
+          </li>
+          <li>
             <img src="https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo-thumbnail.png" />
             <p>Express.js</p>
+          </li>
+          <li>
+            <img src="https://w7.pngwing.com/pngs/657/27/png-transparent-postgresql-original-wordmark-logo-icon.png" />
+            <p>PostgreSQL</p>
+          </li>
+          <li>
+            <img src="https://cdn.freelogovectors.net/wp-content/uploads/2022/01/prisma_logo-freelogovectors.net_.png" />
+            <p>Prisma ORM</p>
           </li>
         </ul>
       ),

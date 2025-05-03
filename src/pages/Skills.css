@@ -46,13 +46,15 @@
     background-color: #fff;
 }
 
-.Skills article ul{
+.Skills article ul {
     display: flex;
+    flex-wrap: wrap; /* 🧠 това е новото */
     padding: 1em;
     align-items: center;
-gap: 30px;
-}
-
+    gap: 30px;
+    justify-content: start; /* (по избор) за центриране */
+  }
+  
 .Skills article ul li{
     display: flex;
     flex-direction: column;
