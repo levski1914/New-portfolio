@@ -47,10 +47,7 @@ const Projects = () => {
                 <h5>React + NodeJS + MongoDB</h5>
               </div>
               <div className="card-info">
-                <a
-                  target="_blank"
-                  href="https://mern-netfl-2024.netlify.app/register"
-                >
+                <a target="_blank" href="https://forecastbulgaria.netlify.app">
                   <FontAwesomeIcon icon="fa-solid fa-wifi" />
                   View live
                 </a>
